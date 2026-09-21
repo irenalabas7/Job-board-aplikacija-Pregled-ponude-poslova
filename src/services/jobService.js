@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/jobs";
+const API_URL = "https://6ab0d5d19751d2b03e6c8218.mockapi.io/jobs";
 
 export async function getJobs() {
   const response = await fetch(API_URL);
